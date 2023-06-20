@@ -19,5 +19,12 @@ namespace NumerosPseudoaleatorios.Multiplicador_Constante
             Icon icono = new Icon(@"Media\iconoItsur.ico");
             this.Icon = icono;
         }
+
+        private void btnMCBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmMenu frmMenu = new FrmMenu();
+            frmMenu.Show();
+        }
     }
 }

@@ -19,5 +19,12 @@ namespace NumerosPseudoaleatorios.Productos_Medios
             Icon icono = new Icon(@"Media\iconoItsur.ico");
             this.Icon = icono;
         }
+
+        private void btnPMBack_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FrmMenu frmMenu = new FrmMenu();
+            frmMenu.Show();
+        }
     }
 }

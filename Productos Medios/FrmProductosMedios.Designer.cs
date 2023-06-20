@@ -28,7 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnPMBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnPMBack
+            // 
+            this.btnPMBack.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.btnPMBack.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPMBack.Location = new System.Drawing.Point(12, 403);
+            this.btnPMBack.Name = "btnPMBack";
+            this.btnPMBack.Size = new System.Drawing.Size(108, 35);
+            this.btnPMBack.TabIndex = 1;
+            this.btnPMBack.Text = "Regresar";
+            this.btnPMBack.UseVisualStyleBackColor = false;
+            this.btnPMBack.Click += new System.EventHandler(this.btnPMBack_Click);
             // 
             // FrmProductosMedios
             // 
@@ -36,6 +49,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnPMBack);
             this.Name = "FrmProductosMedios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmProductosMedios";
@@ -44,5 +58,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnPMBack;
     }
 }
