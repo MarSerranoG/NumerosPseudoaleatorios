@@ -15,6 +15,9 @@ namespace NumerosPseudoaleatorios.Multiplicador_Constante
         public FrmMultiplicador_Constante()
         {
             InitializeComponent();
+            // Icono del itsur 
+            Icon icono = new Icon(@"Media\iconoItsur.ico");
+            this.Icon = icono;
         }
     }
 }

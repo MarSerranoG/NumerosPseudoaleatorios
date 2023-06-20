@@ -15,6 +15,7 @@ namespace NumerosPseudoaleatorios.Cuadrados_Medios
         public FrmCuadradosMedios()
         {
             InitializeComponent();
+            // Icono del itsur 
             Icon icono = new Icon(@"Media\iconoItsur.ico");
             this.Icon = icono;
         }

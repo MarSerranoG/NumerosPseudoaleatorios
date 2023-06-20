@@ -16,8 +16,8 @@ namespace NumerosPseudoaleatorios
         public FrmMenu()
         {
             InitializeComponent();
-            Icon icono = new Icon(@"Media\iconoItsur.ico");
-
+            // Icono del itsur 
+          Icon icono = new Icon(@"Media\iconoItsur.ico");
           this.Icon = icono;
 
         }

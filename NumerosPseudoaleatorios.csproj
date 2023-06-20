@@ -72,8 +72,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cuadrados Medios\FrmCuadradosMedios.resx">
+      <DependentUpon>FrmCuadradosMedios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Multiplicador Constante\FrmMultiplicadorConstante.resx">
+      <DependentUpon>FrmMultiplicadorConstante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos Medios\FrmProductosMedios.resx">
+      <DependentUpon>FrmProductosMedios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

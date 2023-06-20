@@ -15,6 +15,9 @@ namespace NumerosPseudoaleatorios.Productos_Medios
         public FrmProductosMedios()
         {
             InitializeComponent();
+            // Icono del itsur 
+            Icon icono = new Icon(@"Media\iconoItsur.ico");
+            this.Icon = icono;
         }
     }
 }
